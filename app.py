@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 
 st.set_page_config(page_title="CardingCalc", page_icon="🧵")
@@ -36,5 +36,5 @@ draft = input_density / output_density
 st.write(f"Draft = {draft:.2f}")
 
 st.info("Educational calculations only. Check your course formulas and units before using results.")
-```
+
 
